@@ -1,0 +1,20 @@
+{
+  "name": "chartjs-debug",
+  "private": true,
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=16.x.x"
+  },
+  "scripts": {
+    "build": "node ./esbuild.mjs"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41",
+    "@types/node": "^25.2.3",
+    "esbuild": "^0.27.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1"
+  }
+}
